@@ -5,7 +5,7 @@ import Review from './components/review/review'
 function App() {
 
   return (
-    <div>
+    <div className='p-5'>
       <Review />
       <ReviewForm />
     </div>
