@@ -6,7 +6,7 @@ import { Star } from "./star";
 const classes = {
   title: cntl`  
     font-bold
-    text-xl
+    text-base
     text-center
     mb-4 text-black
   `,
@@ -43,7 +43,6 @@ export const Rating: FC<Props> = (props) => {
 
     const stars =
       ratingRef.current?.querySelectorAll<HTMLDivElement>(".udemy-star");
-    console.log("all stars", stars, ratingRef.current);
     if (!stars || stars.length === 0) {
       return;
     }
