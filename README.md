@@ -1,6 +1,6 @@
-# React + TypeScript + Vite
+# Udemy like review form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is just small project containing a component for review form.
 
 Currently, two official plugins are available:
 
