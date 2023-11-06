@@ -37,10 +37,10 @@ function App() {
   };
   return (
     <div className="p-5 min-h-screen bg-white w-full">
-      <div className="p-1">
+      <div className="p-1 mt-20">
         {review.rating === 0 ? (
-          <button className="m-auto" onClick={() => setOpenReviewForm(true)}>
-            {`Add your review`}
+          <button className="m-auto block outline-0 border-0 hover:outline-0 hover:border-0" onClick={() => setOpenReviewForm(true)}>
+            Add your review
           </button>
         ) : (
           <div className={classes.reviewContainer}>

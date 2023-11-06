@@ -102,10 +102,10 @@ export const Rating: FC<Props> = (props) => {
   return (
     <div>
       {props.classify ? (
-        <span className={classes.title}>
+        <div className={classes.title}>
           {ratingClassification[Math.ceil(classificationRating)] ||
             "Select Rating"}
-        </span>
+        </div>
       ) : null}
       <div ref={ratingRef} className={classes.starContainer}>
         {[...Array(props.totalStars).keys()].map((index) => {
